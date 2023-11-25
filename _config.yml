@@ -1,4 +1,5 @@
 title: Liffindra Angga Zaaldian
+remote_theme: "dracula/gh-pages"
 
 plugins:
   - jekyll-sitemap
