@@ -5,9 +5,9 @@ layout: default
 <ul class="post-list">
 {% for post in site.posts %}
     <li>
-        <span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
+        <span class="post-list__meta">{{ post.date | date: "%-d %b %Y" }}</span>
         <h3>
-            <a href="{{ post.url | relative_url }}" class="post-link">{{ post.title | escape }}</a>
+            <a href="{{ post.url | relative_url }}" class="post-list__link">{{ post.title | escape }}</a>
         </h3>
     </li>
 {% endfor %}
