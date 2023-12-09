@@ -20,24 +20,6 @@
   }
 }
 
-.site-header {
-  border-bottom: 0.0625rem solid $green;
-  border-top: 0.25rem solid $green;
-  line-height: $base-line-height * $base-font-size * 2.25;
-  min-height: $spacing-unit * 1.865;
-}
-
-.site-title {
-  font-size: 1.625rem;
-  font-weight: 300;
-  letter-spacing: -0.0625rem;
-  margin-bottom: 0;
-  float: left;
-
-  @include media-query($on-palm) {
-    padding-right: 3rem;
-  }
-}
 
 .page-content {
   flex: 1 0 auto;

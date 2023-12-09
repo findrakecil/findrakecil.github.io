@@ -7,23 +7,28 @@
 
         {% seo %}
 
-        <link href="{{ "/assets/css/styles.css" | relative_url }}" rel="stylesheet">
+        <link href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | relative_url }}" rel="stylesheet">
         <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
         <link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
         <link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
         <link href="/site.webmanifest" rel="manifest">
     </head>
     <body>
-        <header class="site-header">
-            <div class="wrapper">
-                <a href="{{ "/" | relative_url }}" rel="author" class="site-title">{{ site.title | escape }}</a>
-            </div>
-        </header>
+        <div class="wrapper">
+            <header>
+                <h1>{{ site.title | escape }}</h1>
+                <p>{{ site.description | escape }}</p>
+            </header>
 
-        <main class="page-content" aria-label="Content">
-            <div class="wrapper">
+            <main class="page-content">
                 {{ content }}
-            </div>
-        </main>
+            </main>
+
+            <footer>
+                <hr>
+                <span class="credits left">Project maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></span>
+                <span class="credits right">Hosted on GitHub Pages &mdash; Theme by <a href="https://draculatheme.com/">Dracula</a></span>
+            </footer>
+        </div>
     </body>
 </html>
