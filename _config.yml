@@ -1,5 +1,7 @@
 title: Liffindra Angga Zaaldian
 
+paginate: 5
+
 plugins:
-  - jekyll-sitemap
   - jekyll-seo-tag
+  - jekyll-paginate

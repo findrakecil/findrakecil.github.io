@@ -1,9 +1,32 @@
 ---
 layout: default
-title: Liffindra Angga Zaaldian
 ---
 
+<ul class="post-list">
 {% for post in site.posts %}
-    <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
-    {{ post.excerpt }}
+    <li>
+        <span class="post-meta">{{ post.date | date: "%-d %b %Y" }}</span>
+        <h3>
+            <a href="{{ post.url | relative_url }}" class="post-link">{{ post.title | escape }}</a>
+        </h3>
+    </li>
 {% endfor %}
+</ul>
+
+{% if paginator.total_pages > 1 %}
+<div class="pager">
+    <ul class="pagination">
+    {% if paginator.previous_page %}
+        <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">Sebelumnya</a></li>
+    {% else %}
+        <li><div class="pager-edge">•</div></li>
+    {% endif %}
+        <li><div class="current-page">{{ paginator.page }}</div></li>
+    {% if paginator.next_page %}
+        <li><a href="{{ paginator.next_page_path | relative_url }}" class="previous-page">Selanjutnya</a></li>
+    {% else %}
+        <li><div class="pager-edge">•</div></li>
+    {% endif %}
+    </ul>
+</div>
+{% endif %}

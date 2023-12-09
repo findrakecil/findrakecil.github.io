@@ -1,15 +1,29 @@
 <!DOCTYPE html>
 <html lang="id">
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>{{ page.title }} | Liffindra Angga Zaaldian</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-    {% seo %}
-</head>
-<body>
-    <div class="wrapper">
-        {{ content }}
-    </div>
-</body>
+    <head>
+        <meta charset="utf-8">
+        <meta content="IE=edge" http-equiv="X-UA-Compatible">
+        <meta content="width=device-width, initial-scale=1" name="viewport">
+
+        {% seo %}
+
+        <link href="{{ "/assets/css/styles.css" | relative_url }}" rel="stylesheet">
+        <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+        <link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+        <link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+        <link href="/site.webmanifest" rel="manifest">
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="wrapper">
+                <a href="{{ "/" | relative_url }}" rel="author" class="site-title">{{ site.title | escape }}</a>
+            </div>
+        </header>
+
+        <main class="page-content" aria-label="Content">
+            <div class="wrapper">
+                {{ content }}
+            </div>
+        </main>
+    </body>
 </html>
