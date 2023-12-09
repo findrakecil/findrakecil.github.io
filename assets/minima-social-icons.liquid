@@ -7,6 +7,8 @@ permalink: /assets/minima-social-icons.svg
   Iterate through {{ site.social_links }} and render platform related SVG-symbol
 {% endcomment %}
 {% for entry in site.social_links %}
-  {% assign symbol_id = entry.platform %}
+  <symbol id="{{ entry.platform }}" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="1.414" viewBox="0 0 16 16">
+    {% include social-icons/{{ entry.platform }}.svg %}
+  </symbol>
 {% endfor %}
 </svg>
