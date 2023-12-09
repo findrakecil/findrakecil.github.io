@@ -135,13 +135,10 @@ main {
 
 .site-footer {
   padding: $spacing-unit 0;
-
-  .wrapper {
-    border-top: 0.25rem solid $green;
-  }
 }
 
 .social-links {
+  border-top: 0.25rem solid $green;
   color: $foreground;
   font-size: 0.9375rem;
 
