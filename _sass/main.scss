@@ -134,8 +134,11 @@ main {
 }
 
 .site-footer {
-  border-top: 1px solid $selection;
   padding: $spacing-unit 0;
+
+  .wrapper {
+    border-top: 0.25rem solid $green;
+  }
 }
 
 .social-links {
