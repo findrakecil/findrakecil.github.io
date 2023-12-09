@@ -32,7 +32,7 @@
                     <ul class="social-media-list">
                     {% for entry in site.social_links %}
                         <li>
-                            <a href="entry.user_url" target="_blank" title="{{ entry.title | default: entry.platform }}">
+                            <a href="{{ entry.user_url }}" target="_blank" title="{{ entry.title | default: entry.platform }}">
                                 <svg class="svg-icon">
                                     <use xlink:href="{{ '/assets/minima-social-icons.svg#' | append: entry.platform | relative_url }}"></use>
                                 </svg>
