@@ -9,7 +9,7 @@ body {
   color: $foreground;
   display: flex;
   flex-direction: column;
-  font: 400 #{$base-font-size}/#{$base-line-height} -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", Roboto, Helvetica, Arial, sans-serif !default;
+  font: 400 #{$base-font-size}/#{$base-line-height} $base-font-family;
   min-height: 100vh;
   overflow-wrap: break-word;
 }
