@@ -1,5 +1,5 @@
 .highlight table td {
-  padding: 5px;
+  padding: 0.375rem;
 }
 
 .highlight table pre {
@@ -7,99 +7,99 @@
 }
 
 .highlight, .highlight .w {
-  color: #f8f8f2;
+  color: $foreground;
 }
 
 .highlight .err {
-  color: #282a36;
-  background-color: #ff79c6;
+  color: $background;
+  background-color: $pink;
 }
 
 .highlight .c, .highlight .cd, .highlight .cm, .highlight .c1, .highlight .cs {
-  color: #44475a;
+  color: $comment;
 }
 
 .highlight .cp {
-  color: #50fa7b;
+  color: $green;
 }
 
 .highlight .nt {
-  color: #50fa7b;
+  color: $green;
 }
 
 .highlight .o, .highlight .ow {
-  color: #f8f8f2;
+  color: $foreground;
 }
 
 .highlight .p, .highlight .pi {
-  color: #f8f8f2;
+  color: $foreground;
 }
 
 .highlight .gi {
-  color: #f1fa8c;
+  color: $yellow;
 }
 
 .highlight .gd {
-  color: #ff79c6;
+  color: $pink;
 }
 
 .highlight .gh {
-  color: #8be9fd;
+  color: $cyan;
   font-weight: bold;
 }
 
 .highlight .k, .highlight .kn, .highlight .kp, .highlight .kr, .highlight .kv {
-  color: #bd93f9;
+  color: $purple;
 }
 
 .highlight .kc {
-  color: #ffb86c;
+  color: $orange;
 }
 
 .highlight .kt {
-  color: #ffb86c;
+  color: $orange;
 }
 
 .highlight .kd {
-  color: #ffb86c;
+  color: $orange;
 }
 
 .highlight .s, .highlight .sb, .highlight .sc, .highlight .sd, .highlight .s2, .highlight .sh, .highlight .sx, .highlight .s1 {
-  color: #f1fa8c;
+  color: $yellow;
 }
 
 .highlight .sr {
-  color: #8be9fd;
+  color: $cyan;
 }
 
 .highlight .si {
-  color: #ff5555;
+  color: $red;
 }
 
 .highlight .se {
-  color: #ff5555;
+  color: $red;
 }
 
 .highlight .nn {
-  color: #50fa7b;
+  color: $green;
 }
 
 .highlight .nc {
-  color: #50fa7b;
+  color: $green;
 }
 
 .highlight .no {
-  color: #50fa7b;
+  color: $green;
 }
 
 .highlight .na {
-  color: #8be9fd;
+  color: $cyan;
 }
 
 .highlight .m, .highlight .mf, .highlight .mh, .highlight .mi, .highlight .il, .highlight .mo, .highlight .mb, .highlight .mx {
-  color: #f1fa8c;
+  color: $yellow;
 }
 
 .highlight .ss {
-  color: #f1fa8c;
+  color: $yellow;
 }
