@@ -97,13 +97,11 @@ main {
 }
 
 .site-header {
-  background-color: $selection;
-  border-bottom: 0.25rem solid $cyan;
+  border-bottom: 0.0625rem solid $green;
   line-height: $base-line-height * $base-font-size * 2.25;
   min-height: $spacing-unit * 1.865;
 
   .site-title {
-    color: $foreground;
     font-size: 1.625rem;
     font-weight: 300;
     margin-bottom: 0;
@@ -125,7 +123,6 @@ main {
 }
 
 .post-list__meta {
-  color: $yellow;
   font-size: $base-font-size * 0.875;
 }
 
@@ -135,11 +132,11 @@ main {
 }
 
 .site-footer {
+  border-top: 0.0625rem solid $green;
   padding: $spacing-unit 0;
 }
 
 .social-links {
-  border-top: 0.25rem solid $green;
   color: $foreground;
   font-size: 0.9375rem;
 
