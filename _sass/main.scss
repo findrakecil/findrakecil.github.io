@@ -3,6 +3,12 @@
 @import "base";
 @import "rouge-dracula";
 
+/**
+ * =============================================================================
+ * Base
+ * =============================================================================
+ */
+
 html {
   font-size: $base-font-size;
 }
@@ -96,6 +102,12 @@ main {
   }
 }
 
+/**
+ * =============================================================================
+ * Header
+ * =============================================================================
+ */
+
 .site-header {
   border-bottom: 0.0625rem solid $green;
   line-height: $base-line-height * $base-font-size * 2.25;
@@ -107,6 +119,12 @@ main {
     margin-bottom: 0;
   }
 }
+
+/**
+ * =============================================================================
+ * Content
+ * =============================================================================
+ */
 
 .page-content {
   flex: 1 0 auto;
@@ -130,6 +148,75 @@ main {
   display: block;
   font-size: 1.5rem;
 }
+
+/**
+ * -----------------------------------------------------------------------------
+ * Article page
+ * -----------------------------------------------------------------------------
+ */
+
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-title,
+.post-content h1 {
+  color: $green;
+  font-size: 2.625rem;
+  letter-spacing: -0.0625rem;
+  line-height: 1.15;
+
+  @media screen and (min-width: $on-large) {
+    font-size: 2.625rem;
+  }
+}
+
+.post-content {
+  margin-bottom: $spacing-unit;
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-top: $spacing-unit
+  }
+
+  h2 {
+    color: $cyan;
+    font-size: 1.75rem;
+
+    @media screen and (min-width: $on-large) {
+      font-size: 2rem;
+    }
+  }
+
+  h3 {
+    color: $cyan;
+    font-size: 1.375rem;
+
+    @media screen and (min-width: $on-large) {
+      font-size: 1.625rem;
+    }
+  }
+
+  h4 {
+    color: $yellow;
+    font-size: 1.25rem;
+  }
+
+  h5 {
+    color: $yellow;
+    font-size: 1.125rem;
+  }
+
+  h6 {
+    color: $yellow;
+    font-size: 1.0625rem;
+  }
+}
+
+/**
+ * =============================================================================
+ * Footer
+ * =============================================================================
+ */
 
 .site-footer {
   border-top: 0.0625rem solid $green;
