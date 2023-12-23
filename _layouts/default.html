@@ -1,47 +1,13 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-    <head>
-        <meta charset="utf-8">
-        <meta content="IE=edge" http-equiv="X-UA-Compatible">
-        <meta content="width=device-width, initial-scale=1" name="viewport">
-
-        {% seo %}
-
-        <link href="{{ '/assets/css/styles.css?v=' | append: site.github.build_revision | relative_url }}" rel="stylesheet">
-        <link href="/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
-        <link href="/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
-        <link href="/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
-        <link href="/site.webmanifest" rel="manifest">
-    </head>
-    <body>
-        <header class="site-header">
-            <div class="wrapper">
-                <h1 class="site-title">{{ site.title | escape }}</h1>
-            </div>
-        </header>
-
-        <main class="page-content">
-            <div class="wrapper">
-                {{ content }}
-            </div>
-        </main>
-
-        <footer class="site-footer">
-            <div class="wrapper">
-                <div class="social-links">
-                    <ul class="social-media-list">
-                    {% for entry in site.social_links %}
-                        <li>
-                            <a href="{{ entry.user_url }}" target="_blank" title="{{ entry.title | default: entry.platform }}">
-                                <svg class="svg-icon">
-                                    <use xlink:href="{{ '/assets/minima-social-icons.svg#' | append: entry.platform | relative_url }}"></use>
-                                </svg>
-                            </a>
-                        </li>
-                    {% endfor %}
-                    </ul>
-                </div>
-            </div>
-        </footer>
-    </body>
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+        name="viewport">
+  <meta content="ie=edge" http-equiv="X-UA-Compatible">
+  <title>Liffindra Angga Zaaldian</title>
+</head>
+<body>
+  {{ content }}
+</body>
 </html>
