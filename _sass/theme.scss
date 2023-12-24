@@ -61,6 +61,7 @@ a {
 
 blockquote {
   border-left: 0.25rem solid $polar-night-4;
+  color: $polar-night-4;
   font-size: 1.125rem;
   font-style: italic;
   padding-left: $spacing-unit * .5;
@@ -179,7 +180,8 @@ pre {
   }
 }
 
-.post-list__meta {
+.post-list__meta,
+.post__meta {
   color: $polar-night-4;
   font-size: $small-font-size;
 }
