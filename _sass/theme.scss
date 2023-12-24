@@ -3,6 +3,7 @@ html {
 }
 
 body {
+  color: $polar-night-1;
   display: flex;
   flex-direction: column;
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
@@ -49,6 +50,7 @@ li {
 }
 
 a {
+  color: $frost-4;
   text-decoration: none;
 
   &:hover {
@@ -57,7 +59,7 @@ a {
 }
 
 blockquote {
-  border-left: 0.25rem solid #777;
+  border-left: 0.25rem solid $polar-night-4;
   font-size: 1.125rem;
   font-style: italic;
   padding-left: $spacing-unit * .5;
@@ -75,11 +77,11 @@ table {
   margin-bottom: $spacing-unit;
   width: 100%;
   border-collapse: collapse;
-  border: 0.0625rem solid #777777;
+  border: 0.0625rem solid $snow-storm-1;
 
   tr {
     &:nth-child(even) {
-      background-color: #999999;
+      background-color: $snow-storm-3;
     }
   }
 
@@ -88,12 +90,12 @@ table {
   }
 
   th {
-    background-color: #999999;
-    border: 0.0625rem solid #777777;
+    background-color: $snow-storm-2;
+    border: 0.0625rem solid $snow-storm-2;
   }
 
   td {
-    border: 0.0625rem solid #777777;
+    border: 0.0625rem solid $snow-storm-3;
   }
 
   @include media-query($on-laptop) {
@@ -106,7 +108,7 @@ table {
 
 pre,
 code {
-  border: 0.0625rem solid #777777;
+  border: 0.0625rem solid $snow-storm-1;
   border-radius: 0.25rem;
   font-family: $code-font-family;
   font-size: 0.9375em;
@@ -149,8 +151,8 @@ pre {
 }
 
 .site-header {
-  border-bottom: 0.0625rem solid #777777;
-  border-top: 0.25rem solid #777777;
+  border-bottom: 0.0625rem solid $snow-storm-3;
+  border-top: 0.25rem solid $snow-storm-3;
   line-height: $base-line-height * $base-font-size * 2.25;
   min-height: $spacing-unit * 1.865;
 }
@@ -177,6 +179,7 @@ pre {
 }
 
 .post-list__meta {
+  color: $polar-night-4;
   font-size: $small-font-size;
 }
 
@@ -234,7 +237,7 @@ pre {
 }
 
 .site-footer {
-  border-top: 0.0625rem solid #777777;
+  border-top: 0.0625rem solid $snow-storm-3;
   padding: $spacing-unit 0;
 }
 
@@ -267,7 +270,7 @@ pre {
       padding: $spacing-unit * .25;
 
       &.pager-edge {
-        color: #777777;
+        color: $snow-storm-3;
         border: 0.0625rem dashed;
       }
     }

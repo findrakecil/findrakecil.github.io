@@ -13,6 +13,15 @@ $on-laptop: 45rem !default;
 $on-medium: $on-palm !default;
 $on-large: $on-laptop !default;
 
+$polar-night-1: #2E3440;
+$polar-night-4: #4C566A;
+
+$frost-4: #5E81AC;
+
+$snow-storm-1: #D8DEE9;
+$snow-storm-2: #E5E9F0;
+$snow-storm-3: #ECEFF4;
+
 @mixin media-query($device) {
   @media screen and (max-width: $device) {
     @content;
