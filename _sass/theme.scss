@@ -242,64 +242,6 @@ pre {
   }
 }
 
-.site-footer {
-  border-top: 0.0625rem solid $snow-storm-3;
-  padding: $spacing-unit 0;
-}
-
-.site-footer__content {
-  font-size: 0.9375rem;
-}
-
-.site-footer__col {
-  color: $polar-night-4;
-  margin-bottom: $spacing-unit * .5;
-}
-
-.site-footer__col-1,
-.site-footer__col-2 {
-  width: calc(50% - (#{$spacing-unit} / 2));
-}
-
-.site-footer__col-3 {
-  width: calc(100% - (#{$spacing-unit} / 2));
-}
-
-@media screen and (min-width: $on-large) {
-  .site-footer__col-1 {
-    width: calc(35% - (#{$spacing-unit} / 2));
-  }
-
-  .site-footer__col-2 {
-    width: calc(20% - (#{$spacing-unit} / 2));
-  }
-
-  .site-footer__col-3 {
-    width: calc(45% - (#{$spacing-unit} / 2));
-  }
-}
-
-@media screen and (min-width: $on-medium) {
-  .site-footer__col-wrapper {
-    display: flex
-  }
-
-  .site-footer__col {
-    width: calc(100% - (#{$spacing-unit} / 2));
-    padding: 0 ($spacing-unit * .5);
-
-    &:first-child {
-      padding-right: $spacing-unit * .5;
-      padding-left: 0;
-    }
-
-    &:last-child {
-      padding-right: 0;
-      padding-left: $spacing-unit * .5;
-    }
-  }
-}
-
 .pagination {
   margin-bottom: $spacing-unit;
 
