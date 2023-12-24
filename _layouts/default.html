@@ -5,9 +5,39 @@
   <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
         name="viewport">
   <meta content="ie=edge" http-equiv="X-UA-Compatible">
-  <title>Liffindra Angga Zaaldian</title>
+
+  {% seo %}
+
+  <link href="{{ '/assets/css/styles.css' | relative_url }}" rel="stylesheet">
 </head>
 <body>
-  {{ content }}
+<header class="site-header">
+  <div class="wrapper">
+    <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title | escape }}</a>
+  </div>
+</header>
+
+<main class="page-content">
+  <div class="wrapper">
+    {{ content }}
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="wrapper">
+    <div class="site-footer__content">
+      <div class="site-footer__col">
+        <ul class="social-list">
+          <li><a href="{{ https://github.com/findrakecil }}" target="_blank">GitHub</a></li>
+          <li><a href="{{ https://instagram.com/findrakecil }}" target="_blank">Instagram</a></li>
+          <li><a href="{{ https://linkedin.com/in/liffindrazaaldian }}" target="_blank">LinkedIn</a></li>
+        </ul>
+      </div>
+      <div class="site-footer__col">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab aut consectetur eligendi, eos esse facere laudantium praesentium quisquam, repellendus rerum sint vel voluptates.</p>
+      </div>
+    </div>
+  </div>
+</footer>
 </body>
 </html>

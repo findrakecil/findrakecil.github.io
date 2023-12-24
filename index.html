@@ -3,30 +3,36 @@ layout: default
 ---
 
 <ul class="post-list">
-{% for post in site.posts %}
-    <li>
-        <span class="post-list__meta">{{ post.date | date: "%-d %b %Y" }}</span>
-        <h2>
-            <a href="{{ post.url | relative_url }}" class="post-list__link">{{ post.title | escape }}</a>
-        </h2>
-    </li>
-{% endfor %}
+  {% for post in site.posts %}
+  <li>
+    <span class="post-list__meta">{{ post.date | date: "%-d %b %Y" }}</span>
+    <h2>
+      <a class="post-list__link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
+    </h2>
+  </li>
+  {% endfor %}
 </ul>
 
 {% if paginator.total_pages > 1 %}
 <div class="pager">
-    <ul class="pagination">
+  <ul class="pagination">
     {% if paginator.previous_page %}
-        <li><a href="{{ paginator.previous_page_path | relative_url }}" class="previous-page">Sebelumnya</a></li>
+    <li><a class="previous-page" href="{{ paginator.previous_page_path | relative_url }}">Sebelumnya</a></li>
     {% else %}
-        <li><div class="pager-edge">•</div></li>
+    <li>
+      <div class="pager-edge">•</div>
+    </li>
     {% endif %}
-        <li><div class="current-page">{{ paginator.page }}</div></li>
+    <li>
+      <div class="current-page">{{ paginator.page }}</div>
+    </li>
     {% if paginator.next_page %}
-        <li><a href="{{ paginator.next_page_path | relative_url }}" class="previous-page">Selanjutnya</a></li>
+    <li><a class="previous-page" href="{{ paginator.next_page_path | relative_url }}">Selanjutnya</a></li>
     {% else %}
-        <li><div class="pager-edge">•</div></li>
+    <li>
+      <div class="pager-edge">•</div>
+    </li>
     {% endif %}
-    </ul>
+  </ul>
 </div>
 {% endif %}
