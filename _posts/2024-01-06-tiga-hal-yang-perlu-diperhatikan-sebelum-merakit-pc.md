@@ -1,5 +1,6 @@
 ---
 layout: post
+title: Tiga Hal yang Perlu Diperhatikan Sebelum merakit PC
 ---
 
 Merakit PC adalah hal yang menyenangkan dan menantang bagi sebagian orang. Saya mencoba merakit PC yang sesuai keinginan saya dan berikut adalah hal-hal yang saya harap saya persiapkan dengan matang sebelum merakit PC.
