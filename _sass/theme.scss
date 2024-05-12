@@ -169,9 +169,15 @@ pre {
   padding: $spacing-unit 0;
 }
 
-.about p {
-  color: $polar-night-4;
-  margin-top: 0.5rem;
+.about {
+  h2 {
+    margin-bottom: 0;
+  }
+
+  p {
+    color: $polar-night-4;
+    margin-top: 0;
+  }
 }
 
 .post-list {
