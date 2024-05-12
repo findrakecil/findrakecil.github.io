@@ -7,13 +7,15 @@ layout: default
   <p>Software Engineer - iOS, Swift</p>
 </div>
 
+<h1>Artikel</h1>
+
 <ul class="post-list">
   {% for post in site.posts %}
   <li>
-    <span class="post-list__meta">{{ post.date | date: "%-d %b %Y" }}</span>
     <h2>
       <a class="post-list__link" href="{{ post.url | relative_url }}">{{ post.title | escape }}</a>
     </h2>
+    <span class="post-list__meta">{{ post.date | date: "%-d %b %Y" }}</span>
   </li>
   {% endfor %}
 </ul>
