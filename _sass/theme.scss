@@ -25,7 +25,7 @@ ul, ol, dl, figure,
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: $polar-night-2;
+  color: $polar-night-4;
   font-weight: $base-font-weight;
 }
 
@@ -169,7 +169,13 @@ pre {
   padding: $spacing-unit 0;
 }
 
+.title--with-border {
+  border-bottom: 0.0625rem solid $polar-night-4;
+}
+
 .about {
+  margin-bottom: 3rem;
+
   h2 {
     margin-bottom: 0;
   }
