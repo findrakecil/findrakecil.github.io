@@ -47,4 +47,4 @@ Besar watt yang dibutuhkan bisa dihitung di [kalkulator PSU](https://pc-builds.c
 ## Rujukan
 
 - [UPS Load Calculator, How Much Power Will Your UPS Use? - Eaton](https://upsselector.eaton.com/Load) dari [eaton.com](https://eaton.com)
-- [Power Supply Unit (PSU) Calculator | PC Builds](https://pc-builds.com/power-supply-calculator) dari [pc-builds.com](https://pc-builds.com/)
+- [Power Supply Unit (PSU) Calculator - PC Builds](https://pc-builds.com/power-supply-calculator) dari [pc-builds.com](https://pc-builds.com/)
