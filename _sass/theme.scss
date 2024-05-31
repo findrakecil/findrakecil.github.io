@@ -164,13 +164,13 @@ pre {
 }
 
 .site-header {
+  background-color: $polar-night-4;
   line-height: $base-line-height * $base-font-size * 2.25;
-  min-height: $spacing-unit * 1.865;
-  padding: 1rem 0;
+  padding: 0.5rem 0;
 }
 
 .site-title {
-  color: $polar-night-4;
+  color: $snow-storm-3;
   font-size: 1.625rem;
   font-weight: 300;
   letter-spacing: -0.0625rem;
