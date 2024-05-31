@@ -3,31 +3,42 @@ layout: post
 title: Merakit PC untuk Gaming dan Bekerja
 ---
 
-Saya mencoba merakit PC yang sesuai dengan kebutuhan dan keinginan saya untuk bermain game dan bekerja. Berikut adalah catatan dan pengalaman saya selama proses merakit PC.
+Saya mencoba merakit PC yang sesuai dengan kebutuhan dan keinginan saya untuk bermain game ~~dan bekerja~~. Berikut adalah catatan dan pengalaman saya selama proses merakit PC.
+
+## Tujuan
+
+Setelah mencoba berbagai sistem operasi, saya memutuskan untuk menggunakan PC hanya untuk bermain game.
+
+Hal yang membuat saya memilih keputusan itu adalah:
+
+- dukungan *driver* perangkat keras lebih stabil di Windows
+- penskalaan tampilan lebih stabil di Windows sehingga saya bisa nyaman melihat di layar monitor 27" 4K
+- banyak game kesukaan saya hanya untuk platform Windows
 
 ## Persiapan
 
-Ada beberapa hal pada komponen PC yang berkaitan satu sama lain, contohnya _socket_ prosesor dan RAM yang disediakan oleh _motherboard_. Karena hal-hal yang saling berkaitan tersebut, kita harus lebih teliti dalam memilih komponen tersebut.
-
-Hal lain yang perlu dipersiapkan adalah jalur kabel untuk daya dan internet. Pastikan panjang kabel cukup atau masih ada sisa.
-
-Suhu ruangan akan mempengaruhi suhu pada PC yang kemudian akan mempengaruhi kinerjanya. Usahakan PC diletakkan di tempat yang sejuk dan tidak terkena sinar matahari secara langsung.
+- Ada beberapa hal pada komponen PC yang berkaitan satu sama lain, contohnya *socket* prosesor dan RAM yang disediakan oleh *motherboard*. Karena hal-hal yang saling berkaitan tersebut, kita harus teliti dalam memilih komponen tersebut.
+- Hal lain yang perlu dipersiapkan adalah jalur kabel untuk daya dan sambungan internet. Pastikan panjang kabel cukup atau masih ada sisa.
+- Suhu ruangan akan mempengaruhi suhu pada PC yang kemudian akan mempengaruhi kinerjanya. Usahakan PC diletakkan di tempat yang sejuk dan tidak terkena sinar matahari secara langsung.
 
 ## Komponen
 
 ### Layar monitor
 
-Layar monitor 24 inci dengan resolusi 1080 (FHD) adalah produk yang pas di meja kerja ukuran 120 cm x 60 cm.  
+Layar monitor 24 inci dengan resolusi 1080 (FHD), karena:
+
+- pas di meja kerja ukuran 120 cm x 60 cm
+- menskalakan tampilan dapat mempengaruhi kinerja seperti *frame per second*
 
 ### Penyedia daya
 
-Ada dua komponen paling penting yang saling berkaitan yaitu _uninterruptible power supply_ UPS dan _power supply unit_ (PSU).
+Ada dua komponen paling penting yang saling berkaitan yaitu *uninterruptible power supply* (UPS) dan *power supply unit* (PSU).
 
 #### UPS
 
 UPS diperlukan agar perangkat yang tersambung tidak mudah rusak karena listrik. Kegunaan utama dari UPS adalah:
 
-- menyediakan daya ketika listrik mati
+- menyediakan daya ketika listrik mati sehingga ada waktu untuk menyelesaikan tugas dan mematikan perangkat dengan aman
 - menjaga kestabilan arus listrik
 
 Perangkat yang wajib tersambung ke UPS adalah:
